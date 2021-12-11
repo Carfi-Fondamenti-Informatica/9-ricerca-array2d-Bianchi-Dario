@@ -1,6 +1,5 @@
 #include <iostream>
 #include "lib.h"
-
 using namespace std;
 
 int main() {
@@ -9,7 +8,9 @@ int main() {
     for (int i =0; i<0; i++) {
         cin>>a[i];
     }
-cin>> f[0];
+    cin>> f[0];
+    
+    
     if (ricerca(a,f,pos)){
         cout<<pos<< endl;
     }else{
